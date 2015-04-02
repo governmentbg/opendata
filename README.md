@@ -9,7 +9,7 @@ https://opendata.government.bg/
 Това място е отправна точка и списък с компонентите, които задвижват портала. Основните хранилища, които се използват:
 
 1. [**ckan**](https://github.com/governmentbg/ckan) - основно хранилище, задвижващо сайта; fork от проекта [CKAN](http://ckan.org).
-2. [**ckan-bulgarian-theme**](https://github.com/governmentbg/ckan-bulgarian-theme) - темата (визията) на портала, изработена безвъзмездно за държавата от [Общество.бг](http://www.obshtestvo.bg/).
+2. [**ckan-bulgarian-theme**](https://github.com/governmentbg/ckan-bulgarian-theme) - темата (визията) на портала.
 3. [**ckan-install**](https://github.com/governmentbg/ckan-install) - помощен инструмент за (полу-)автоматизирана инсталация на портала за отворени данни. Приложима е и за CKAN.
 4. [**ckan-datapusher**](https://github.com/governmentbg/ckan-datapusher) - фонов процес, който обработва качени в портала данни и ги слага в CKAN datastore-а.
 5. [**opendata-data-provider**](https://github.com/obshtestvo/opendata-data-provider) - много ранен прототип на софтуер, който да автоматизира процеса по качване на данни в портала. Целта му е да се инсталира в и използва от различните администрации.
