@@ -1,6 +1,6 @@
 # Обновяване на CKAN
 
-Обновяване на CKAN от 2.3a до 2.3 final ([diff & changelog](https://github.com/obshtestvo/data.obshtestvo.bg/compare/930fc27...ckan-2.3)).
+Обновяване на CKAN от 2.3a до 2.3 final ([diff & changelog](https://github.com/governmentbg/ckan/compare/930fc27...ckan-2.3)).
 
 Базирано на [това ръководство](http://docs.ckan.org/en/latest/maintaining/upgrading/upgrade-source.html).
 
@@ -13,7 +13,7 @@
 След това, инсталация на CKAN, на чисто:
 
     pip uninstall ckan
-    pip install -e "git+https://github.com/obshtestvo/data.obshtestvo.bg.git@data.obshtestvo.bg#egg=ckan"
+    pip install -e "git+https://github.com/governmentbg/ckan.git@master#egg=ckan"
 
 Инсталация на зависимостите му:
 
