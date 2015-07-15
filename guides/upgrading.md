@@ -35,3 +35,7 @@ Rebuild на search index-а:
 
     service jetty restart
     service apache2 reload
+
+## Обновяване на темата (визията)
+
+Вижте [това ръководство](update_theme.md).
