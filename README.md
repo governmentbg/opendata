@@ -1,5 +1,7 @@
 # Портал за отворени данни
 
+[![Join the chat at https://gitter.im/governmentbg/opendata](https://badges.gitter.im/governmentbg/opendata.svg)](https://gitter.im/governmentbg/opendata?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
+
 Държавният портал за отворени данни се намира на адрес:
 
 https://opendata.government.bg/
