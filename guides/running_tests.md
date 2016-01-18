@@ -1,5 +1,7 @@
 # Как да си пуснем тестовете
 
+Сбито описание на това как да си пуснете тестовете на `ckan` и `datapusher`. Ако нещо не работи, погледнете тези 2 линка [ckan](http://docs.ckan.org/en/ckan-2.2/test.html), [datapusher](https://github.com/governmentbg/ckan-datapusher/blob/master/README.markdown). Там стъпките са описани по-подробно.
+
 ## Как да си пуснем тестовете на ckan
 
 Как да си пуснем тестовете на `ckan` е описано най-подробно в този [guide](http://docs.ckan.org/en/ckan-2.2/test.html). Стъпките се изпълняват като root user.
@@ -23,5 +25,3 @@ paster datastore set-permissions postgres -c test-core.ini
 1. Навигира се до `datapusher` директорията и се инсталират dev dependencies `pip install -r requirements-dev.txt`.
 2. Пускате тестовете `nosetests`
 
-
-Ако нещо не работи, погледнете тези 2 линка [ckan](http://docs.ckan.org/en/ckan-2.2/test.html), [datapusher](https://github.com/governmentbg/ckan-datapusher/blob/master/README.markdown). Там стъпките са описани по-подробно.
