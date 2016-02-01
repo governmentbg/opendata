@@ -1,6 +1,6 @@
 # Правене на CKAN Extensions
 
-За да не преповтарям официалния guide, който е доста хубав, ще добавя няколко наблюдения от писането на даден CKAN Extension:
+За да не преповтаряме официалния guide, който е доста хубав, ще добавим няколко наблюдения от писането на даден CKAN Extension:
 
 * Официалният guide е добре да се прочете - <http://docs.ckan.org/en/latest/extensions/index.html>
 * Макар и да е отделен guide, **theming-а** също е extension и включва полезни неща в себе си, които не винаги имат общи с **theming** - <http://docs.ckan.org/en/latest/theming/index.html> 
