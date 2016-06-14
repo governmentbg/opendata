@@ -33,6 +33,14 @@
 
     paster --plugin=ckan sysadmin add <username> -c /var/www/ckan/config/production.ini
 
+Махане на **супер-права от потребител**:
+
+    paster --plugin=ckan sysadmin remove <username> -c /var/www/ckan/config/production.ini
+
+Показване на **списък с всички администратори**:
+
+    paster --plugin=ckan sysadmin -c /var/www/ckan/config/production.ini
+
 **Списък с потребители**:
 
     paster --plugin=ckan user list -c /var/www/ckan/config/production.ini
@@ -40,6 +48,10 @@
 **Export на потребителите** в CSV:
 
     paster --plugin=ckan db user-dump-csv -c /var/www/ckan/config/production.ini my_database_users.csv
+
+Показване на **помощ (help) за дадена команда**:
+
+    paster --plugin=ckan sysadmin --help -c /var/www/ckan/config/production.ini
 
 ### База данни
 
