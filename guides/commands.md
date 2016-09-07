@@ -45,6 +45,10 @@
 
     paster --plugin=ckan user list -c /var/www/ckan/config/production.ini
 
+**Смяна на парола на потребител USERNAME** (ще пита на prompt за паролата):
+
+    paster --plugin=ckan user setpass USERNAME -c /var/www/ckan/config/production.ini
+
 **Export на потребителите** в CSV:
 
     paster --plugin=ckan db user-dump-csv -c /var/www/ckan/config/production.ini my_database_users.csv
